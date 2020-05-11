@@ -59,6 +59,13 @@
     "mobile-e2e": {
       "tags": [],
       "implicitDependencies": ["mobile"]
+    },
+    "support": {
+      "tags": []
+    },
+    "support-e2e": {
+      "tags": [],
+      "implicitDependencies": ["support"]
     }
   }
 }
