@@ -82,6 +82,7 @@
     "popper.js": "^1.16.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
+    "react-native-elements": "^2.0.0",
     "react-router-dom": "5.1.2",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~6.5.4",
