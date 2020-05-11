@@ -66,6 +66,13 @@
     "support-e2e": {
       "tags": [],
       "implicitDependencies": ["support"]
+    },
+    "store": {
+      "tags": []
+    },
+    "store-e2e": {
+      "tags": [],
+      "implicitDependencies": ["store"]
     }
   }
 }
