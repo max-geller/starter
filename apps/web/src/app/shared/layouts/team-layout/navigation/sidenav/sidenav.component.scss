@@ -1,0 +1,19 @@
+.mat-accordion {
+  margin: 15px;
+  background-color: #f1f1f1;
+}
+.mat-expansion-panel {
+  background-color: #f1f1f1;
+  width: 100%;
+  margin: 15px;
+  background: transparent;
+  box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgb(255, 255, 255);
+  border-radius: 12px;
+}
+
+.mat-list-item {
+  font-size: 14px;
+  margin: 3px;
+  color: rgb(39, 39, 39);
+}

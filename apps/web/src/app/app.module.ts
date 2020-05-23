@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 // import { CoreModule } from './core/core.module';
-// import { SharedModule } from './shared/shared.module';
+ import { SharedModule } from './shared/shared.module';
 // import { AppRoutes } from './app.routes';
 // import { AuthModule } from './auth/auth.module';
 // import { AuthService } from './core/services/auth.service';
@@ -36,6 +36,7 @@ import { AppComponent } from './app.component';
     AngularFirestoreModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
+    SharedModule
 
 
   ],

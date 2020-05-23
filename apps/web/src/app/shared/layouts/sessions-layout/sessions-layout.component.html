@@ -1,0 +1,15 @@
+<div class="page-container" fxLayout="row" fxLayoutAlign="center center">
+
+ <!--Login Area-->
+    <div class="login-area" fxLayout="column" fxLayoutAlign="center center">
+      <!--Sessions Header-->
+
+      <div class="login-logo"><img src="assets/images/logo.png" height="80px" /></div>
+
+      <!--Sessions Router-->
+      <main [@routerTransition]="getState(o)">
+        <router-outlet #o="outlet"></router-outlet>
+      </main>
+    </div>
+</div>
+
