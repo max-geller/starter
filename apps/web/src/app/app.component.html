@@ -1,5 +1,19 @@
+<ngx-spinner size="medium" color="#FFFFFF" type="ball-grid-pulse" [fullScreen]="true" >
+  <p style="color: white;">LOADING...</p>
+</ngx-spinner>
+
 <mat-toolbar color="primary">
-  <span>Template</span>
+  <span>Starter</span>
   <span class="fill-spacer"></span>
-  <span>Icons</span>
+  <span class="menu-container" >
+    <mat-nav-list fxLayout="row">
+      <mat-list-item>About</mat-list-item>
+      <mat-list-item>Features</mat-list-item>
+      <mat-list-item>Examples</mat-list-item>
+      <mat-list-item>Documentation</mat-list-item>
+    </mat-nav-list>
+  </span>
+  <span class="icon-container"><i class="fas fa-user"></i></span>
 </mat-toolbar>
+
+<router-outlet></router-outlet>

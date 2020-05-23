@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 // import { CoreModule } from './core/core.module';
  import { SharedModule } from './shared/shared.module';
-// import { AppRoutes } from './app.routes';
+ import { AppRoutes } from './app.routes';
 // import { AuthModule } from './auth/auth.module';
 // import { AuthService } from './core/services/auth.service';
 // import { environment } from '../environments/environment.dev';
@@ -15,7 +15,6 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 
 import { HttpClientModule } from '@angular/common/http';
-import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 
 import { NgxSpinnerModule } from 'ngx-spinner';
 
@@ -30,6 +29,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     BrowserAnimationsModule,
     RouterModule,
+    AppRoutes,
     HttpClientModule,
     NgxSpinnerModule,
     AngularFireModule,
@@ -44,7 +44,7 @@ import { AppComponent } from './app.component';
     ,
 
   ],
-  schemas: [],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [
     AppComponent,
   ],
